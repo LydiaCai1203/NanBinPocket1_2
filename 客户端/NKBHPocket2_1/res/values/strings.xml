@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NKBHPocket2_0</string>
+    <string name="psw_tv">Password:</string>
+    <string name="m_account_et">Account</string>
+    <string name="old_pwd_et">Old Password</string>
+    <string name="new_pwd_et">New Password</string>
+    <string name="action_settings">Settings</string>
+    <string name="password_hint">Password</string>
+    <string name="rememberPsw_checkbox">remember your password</string>
+    <string name="username_et">Student</string>
+    <string name="userID_tv">UNKNOWN</string>
+    <string name="modify_btn">modify</string>
+    <string name="info_name_tv">Name:</string>
+    <string name="info_pwd_tv">Password:</string>
+    <string name="info_id_tv">Account:</string>
+    <string name="info_status_tv">Status:</string>   
+    <string name="input_text">type something here</string> 
+    <string name="send_btn">Send</string>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/modify">
+    
+<LinearLayout 
+    android:id="@+id/head_lv_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/listview">
+    
+    <TextView 
+        android:id="@+id/course_name_tv"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="5"
+        android:gravity="center"/>
+      
+    <TextView
+        android:id="@+id/start_term_tv"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:maxLines="2"/>
+
+    <TextView 
+        android:id="@+id/coruse_type_tv"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"/>
+    
+    <TextView 
+        android:id="@+id/credit_tv"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"/>    
+    
+    <TextView 
+        android:id="@+id/score_one_tv"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"/>
+    
+    <TextView 
+        android:id="@+id/score_two_tv"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"/>
+      
+    <TextView 
+        android:id="@+id/final_score_tv"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"/>
+    
+</LinearLayout>
+
+<ProgressBar 
+    android:id="@+id/score_porgbar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="160dp"/>
+
+<ListView 
+    android:id="@+id/score_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/head_lv_layout"
+    android:background="@drawable/listview">
+    
+</ListView>
+
+</RelativeLayout>
+

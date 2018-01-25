@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/start">
+
+    
+    <TableLayout 
+        android:id="@+id/fragtwo_sub_layout"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:gravity="center_vertical">
+        
+        <TableRow 
+            android:id="@+id/row_one"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/tablerow">
+            
+         <TextView
+         android:id="@+id/modf_account_tv"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:background="@drawable/account" />
+            
+         <EditText
+         android:id="@+id/mody_account_et"
+         android:layout_width="0dp"
+         android:layout_weight="10"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:hint="@string/m_account_et" />
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frag2eeeee">
+            
+        </TableRow>
+        
+        <TableRow 
+            android:id="@+id/row_two"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/tablerow">
+            
+         <TextView
+         android:id="@+id/old_password_tv"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:background="@drawable/password"/>
+         
+         <EditText
+         android:id="@+id/old_password_et"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="10"
+         android:ems="10"
+         android:inputType="textPassword"
+         android:hint="@string/old_pwd_et" />
+         
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frag2eeeee">
+            
+        </TableRow>
+        
+        <TableRow 
+            android:id="@+id/row_three"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/tablerow">
+            
+         <TextView
+         android:id="@+id/new_password_tv"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:background="@drawable/password" />
+         
+         <EditText
+         android:id="@+id/new_password_et"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="10"
+         android:ems="10"
+         android:inputType="textPassword"
+         android:hint="@string/new_pwd_et" />
+         
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frag2eeeee">
+            
+        </TableRow>
+
+    </TableLayout>
+
+               <Button
+                   android:id="@+id/modify_btn"
+                   android:layout_width="48dp"
+                   android:layout_height="48dp"
+                   android:layout_below="@+id/fragtwo_sub_layout"
+                   android:layout_centerHorizontal="true"
+                   android:background="@drawable/mylogin"
+                   android:gravity="center" />
+    
+</RelativeLayout>

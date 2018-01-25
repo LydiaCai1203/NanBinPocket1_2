@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/start">
+    
+    <TextView 
+        android:id="@+id/stuImg"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/img4"
+        />
+    
+    <TableLayout
+        android:layout_width="270dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" >
+        
+        <TableRow 
+            android:id="@+id/id_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tablerow">
+            
+            <TextView 
+                android:id="@+id/infoid_tv"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:text="@string/info_id_tv"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"/>
+            
+            <TextView 
+                android:id="@+id/infoid_content_tv"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:textSize="20dp"/>
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frag2eeeee">
+            
+        </TableRow> 
+              
+        <TableRow 
+            android:id="@+id/name_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tablerow">
+            
+            <TextView 
+                android:id="@+id/infoname_tv"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:text="@string/info_name_tv"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"/>
+            
+            <TextView 
+                android:id="@+id/infoname_content_tv"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:textSize="20dp"/>
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frag2eeeee">
+            
+        </TableRow>
+        
+        <TableRow 
+            android:id="@+id/pwd_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tablerow">
+            
+            <TextView 
+                android:id="@+id/infopwd_tv"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:text="@string/info_pwd_tv"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"/>
+            
+            <TextView 
+                android:id="@+id/infopwd_content_tv"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:textSize="20dp"/>
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frag2eeeee">
+            
+        </TableRow>
+        
+        <TableRow 
+            android:id="@+id/status_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tablerow">
+            
+            <TextView 
+                android:id="@+id/infostatus_tv"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:text="@string/info_status_tv"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"/>
+            
+            <TextView 
+                android:id="@+id/infostatus_content_tv"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:textSize="20dp"/>
+        </TableRow>
+        
+        
+    </TableLayout>
+    
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:gravity="center">
+    
+
+    <TableLayout 
+        android:id="@+id/avatar_container"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:gravity="center_horizontal">
+        
+        <TableRow 
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            
+            <TextView 
+                android:id="@+id/avatar1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+            
+            <TextView 
+                android:id="@+id/avatar2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+            
+            <TextView 
+                android:id="@+id/avatar3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+            
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            
+            <TextView 
+                android:id="@+id/avatar4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+            
+            <TextView 
+                android:id="@+id/avatar5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+            
+            <TextView 
+                android:id="@+id/avatar6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+            
+        </TableRow>
+        
+        <TableRow 
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal">
+            
+            <TextView 
+                android:id="@+id/avatar7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+            
+            <TextView 
+                android:id="@+id/avatar8"
+               android:layout_width="80dp"
+                android:layout_height="80dp"/>
+            
+            <TextView 
+                android:id="@+id/avatar9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+            
+        </TableRow>
+        
+    </TableLayout>
+    
+</RelativeLayout>

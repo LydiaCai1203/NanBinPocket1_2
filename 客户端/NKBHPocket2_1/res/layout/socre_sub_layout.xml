@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <TextView 
+        android:id="@+id/course_name_tv"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="5"/>
+      
+    <TextView 
+        android:id="@+id/start_term_tv"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"/>  
+
+    <TextView 
+        android:id="@+id/coruse_type_tv"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"/>
+    
+    <TextView 
+        android:id="@+id/credit_tv"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"/>    
+    
+    <TextView 
+        android:id="@+id/score_one_tv"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"/>
+    
+    <TextView 
+        android:id="@+id/score_two_tv"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"/>
+      
+    <TextView 
+        android:id="@+id/final_score_tv"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/friend_item">
+   
+    <ImageView
+        android:id="@+id/frie_ava_iv"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+            
+    <TextView 
+        android:id="@+id/frie_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_toEndOf="@+id/frie_ava_iv"
+        android:gravity="center"
+        android:textSize="50px"/>
+       
+</RelativeLayout>

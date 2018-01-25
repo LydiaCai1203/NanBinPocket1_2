@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/start">
+  
+   <TableLayout 
+        android:id="@+id/login_sub_layout"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:gravity="center_vertical">
+        
+        <TableRow 
+            android:id="@+id/row_one"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/tablerow">
+            
+         <TextView
+         android:id="@+id/account_tv"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:background="@drawable/account" />
+            
+         <EditText
+         android:id="@+id/account_et"
+         android:layout_width="0dp"
+         android:layout_weight="10"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:hint="@string/m_account_et" />
+        </TableRow>
+
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frag2eeeee">
+            
+        </TableRow>
+        
+        <TableRow 
+            android:id="@+id/login_row_two"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/tablerow">
+            
+         <TextView
+         android:id="@+id/password_tv"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:background="@drawable/password"/>
+         
+         <EditText
+         android:id="@+id/password_et"
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="10"
+         android:ems="10"
+         android:inputType="textPassword"
+         android:hint="@string/password_hint" />
+         
+        </TableRow>
+
+         <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frag2eeeee">
+            
+        </TableRow>
+        
+         <TableRow 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:gravity="left">
+             
+              <CheckBox
+                  android:id="@+id/remberPsw_cb"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/rememberPsw_checkbox"
+                  android:background="@drawable/tablerow"/>
+                      
+         </TableRow>
+                       
+</TableLayout>
+
+                <Button
+                    android:id="@+id/login_btn"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/login_sub_layout"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/mylogin"
+                    android:gravity="center_horizontal" />
+                     
+</RelativeLayout>

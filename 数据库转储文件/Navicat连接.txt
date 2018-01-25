@@ -1,0 +1,7 @@
+Navicat 连接
+
+连接名:caiqj
+user name:root
+password:Cqj951203
+
+不知道需不需要....先写上
